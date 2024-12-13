@@ -1,5 +1,5 @@
 # 🎨 CorAngular
-
+aplicação publicada: https://wellingtoncorreia.github.io/corangular/
 CorAngular é um projeto desenvolvido com Angular que visa fornecer uma plataforma dinâmica e interativa. O sistema foi projetado para ser fácil de usar, com foco na performance e na experiência do usuário.
 
 ## Tecnologias Utilizadas
