@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="header">
+    <h1>🎨 Gerenciador de Cores</h1>
+    <div class="color-picker">
+      <label for="colorPicker">Escolha uma cor:</label>
+      <input type="color" id="colorPicker" [(ngModel)]="newColor" />
+      <button (click)="addColor()">Adicionar Cor</button>
+    </div>
+  </div>
+  
+
+  <div class="color-bubbles">
+    <div class="color-item" *ngFor="let color of colors">
+      <img src="image.png" alt="Lata de Tinta" />
+      <svg [attr.fill]="color.value" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M57.2,-49.3C72.2,-42.2,81.1,-21.1,79.4,-1.6C77.8,17.8,65.7,35.7,50.7,41.9C35.7,48.1,17.8,42.8,2.1,40.7C-13.6,38.5,-27.2,39.7,-33,33.5C-38.8,27.2,-36.7,13.6,-34.1,2.6C-31.5,-8.5,-28.5,-16.9,-22.7,-24.1C-16.9,-31.2,-8.5,-36.9,6.3,-43.3C21.1,-49.6,42.2,-56.5,57.2,-49.3Z"
+          transform="translate(100 100)"
+        ></path>
+      </svg>
+    </div>
+  </div>
+</div>
