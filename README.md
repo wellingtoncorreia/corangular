@@ -1,4 +1,4 @@
-# CorAngular
+# 🎨 CorAngular
 
 CorAngular é um projeto desenvolvido com Angular que visa fornecer uma plataforma dinâmica e interativa. O sistema foi projetado para ser fácil de usar, com foco na performance e na experiência do usuário.
 
